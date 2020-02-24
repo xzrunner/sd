@@ -1,0 +1,8 @@
+sd/
+sd_test/
+projects/*
+
+!projects/sd.vcxproj
+!projects/sd.vcxproj.filters
+!projects/sd_test.vcxproj
+!projects/sd_test.vcxproj.filters
