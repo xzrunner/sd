@@ -37,7 +37,7 @@ void PerlinNoise::Execute()
 
     auto& rc = ur::Blackboard::Instance()->GetRenderContext();
     ur::TexturePtr tex = std::make_shared<ur::Texture>();
-    tex->Upload(&rc, w, h, ur::TEXTURE_A8, pixels.data());
+    tex->Upload(&rc, w, h, ur::TEXTURE_RED, pixels.data());
     m_img->SetTexture(tex);
 }
 
