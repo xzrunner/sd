@@ -7,9 +7,6 @@
     <Filter Include="tools">
       <UniqueIdentifier>{13c365c1-87d7-4d94-999d-3452951a317c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="eval">
-      <UniqueIdentifier>{04d5a3c4-9b59-48b2-a81a-c127d4b71c71}</UniqueIdentifier>
-    </Filter>
     <Filter Include="dataset\node">
       <UniqueIdentifier>{6f6c22eb-ece4-4d0a-b7c1-9b707c08ed93}</UniqueIdentifier>
     </Filter>
@@ -31,9 +28,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\include\sd\typedef.h" />
-    <ClInclude Include="..\..\..\include\sd\Evaluator.h">
-      <Filter>eval</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\include\sd\Node.h">
       <Filter>dataset\node</Filter>
     </ClInclude>
@@ -64,9 +58,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\source\Evaluator.cpp">
-      <Filter>eval</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\source\RegistRTTR.cpp">
       <Filter>tools\rtti</Filter>
     </ClCompile>

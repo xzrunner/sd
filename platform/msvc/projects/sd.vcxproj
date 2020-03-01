@@ -13,7 +13,6 @@
   <ItemGroup>
     <ClInclude Include="..\..\..\include\sd\NodeHelper.h" />
     <ClInclude Include="..\..\..\include\sd\Node.h" />
-    <ClInclude Include="..\..\..\include\sd\Evaluator.h" />
     <ClInclude Include="..\..\..\include\sd\Image.h" />
     <ClInclude Include="..\..\..\include\sd\NodeVarType.h" />
     <ClInclude Include="..\..\..\include\sd\node\PerlinNoise.h" />
@@ -27,7 +26,6 @@
   <ItemGroup>
     <ClCompile Include="..\..\..\source\NodeHelper.cpp" />
     <ClCompile Include="..\..\..\source\Node.cpp" />
-    <ClCompile Include="..\..\..\source\Evaluator.cpp" />
     <ClCompile Include="..\..\..\source\Image.cpp" />
     <ClCompile Include="..\..\..\source\node\PerlinNoise.cpp" />
     <ClCompile Include="..\..\..\source\SD.cpp" />
