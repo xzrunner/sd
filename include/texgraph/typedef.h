@@ -2,7 +2,7 @@
 
 #include <memory>
 
-namespace sd
+namespace texgraph
 {
 
 class Node;

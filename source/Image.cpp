@@ -1,6 +1,6 @@
-#include "sd/Image.h"
+#include "texgraph/Image.h"
 
-namespace sd
+namespace texgraph
 {
 
 }

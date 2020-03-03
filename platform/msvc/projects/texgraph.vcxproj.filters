@@ -27,35 +27,35 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\include\sd\typedef.h" />
-    <ClInclude Include="..\..\..\include\sd\Node.h">
+    <ClInclude Include="..\..\..\include\texgraph\typedef.h" />
+    <ClInclude Include="..\..\..\include\texgraph\Node.h">
       <Filter>dataset\node</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\include\sd\NodeHelper.h">
+    <ClInclude Include="..\..\..\include\texgraph\NodeHelper.h">
       <Filter>tools</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\include\sd\SD.h" />
-    <ClInclude Include="..\..\..\include\sd\node_include_gen.h">
+    <ClInclude Include="..\..\..\include\texgraph\node_include_gen.h">
       <Filter>tools\rtti</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\include\sd\node_rttr_gen.h">
+    <ClInclude Include="..\..\..\include\texgraph\node_rttr_gen.h">
       <Filter>tools\rtti</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\include\sd\node_regist_cfg.h">
+    <ClInclude Include="..\..\..\include\texgraph\node_regist_cfg.h">
       <Filter>tools\rtti</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\include\sd\node\PerlinNoise.h">
+    <ClInclude Include="..\..\..\include\texgraph\node\PerlinNoise.h">
       <Filter>nodes\generators\noises</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\include\sd\node\PerlinNoise.parm.h">
+    <ClInclude Include="..\..\..\include\texgraph\node\PerlinNoise.parm.h">
       <Filter>nodes\generators\noises</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\include\sd\Image.h">
+    <ClInclude Include="..\..\..\include\texgraph\Image.h">
       <Filter>dataset\image</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\include\sd\NodeVarType.h">
+    <ClInclude Include="..\..\..\include\texgraph\NodeVarType.h">
       <Filter>dataset\node</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\include\texgraph\TexGraph.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\source\RegistRTTR.cpp">
@@ -67,12 +67,12 @@
     <ClCompile Include="..\..\..\source\NodeHelper.cpp">
       <Filter>tools</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\source\SD.cpp" />
     <ClCompile Include="..\..\..\source\node\PerlinNoise.cpp">
       <Filter>nodes\generators\noises</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\source\Image.cpp">
       <Filter>dataset\image</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\source\TexGraph.cpp" />
   </ItemGroup>
 </Project>

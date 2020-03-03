@@ -1,8 +1,8 @@
-sd/
-sd_test/
+texgraph/
+texgraph_test/
 projects/*
 
-!projects/sd.vcxproj
-!projects/sd.vcxproj.filters
-!projects/sd_test.vcxproj
-!projects/sd_test.vcxproj.filters
+!projects/texgraph.vcxproj
+!projects/texgraph.vcxproj.filters
+!projects/texgraph_test.vcxproj
+!projects/texgraph_test.vcxproj.filters

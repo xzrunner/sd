@@ -10,15 +10,15 @@
 #endif
 
 #ifndef PARM_FILEPATH_PARM
-#define PARM_FILEPATH_PARM sd/node/##PARM_NODE_TYPE##.parm.h
+#define PARM_FILEPATH_PARM texgraph/node/##PARM_NODE_TYPE##.parm.h
 #endif
 
-#define RTTR_NAME sd::##PARM_NODE_NAME
+#define RTTR_NAME texgraph::##PARM_NODE_NAME
 
-rttr::registration::class_<sd::node::PARM_NODE_TYPE>(XSTR(RTTR_NAME))
+rttr::registration::class_<texgraph::node::PARM_NODE_TYPE>(XSTR(RTTR_NAME))
 .constructor<>()
 #define PARM_FILEPATH XSTR(PARM_FILEPATH_PARM)
-#define PARM_NODE_CLASS sd::node::##PARM_NODE_TYPE
+#define PARM_NODE_CLASS texgraph::node::##PARM_NODE_TYPE
 #include <dag/rttr_prop_gen.h>
 #undef PARM_FILEPATH
 #undef PARM_NODE_CLASS

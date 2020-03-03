@@ -2,7 +2,7 @@
 
 #include <unirender/Texture.h>
 
-namespace sd
+namespace texgraph
 {
 
 class Image

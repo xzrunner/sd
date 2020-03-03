@@ -1,11 +1,11 @@
-#include "sd/node/PerlinNoise.h"
-#include "sd/Image.h"
+#include "texgraph/node/PerlinNoise.h"
+#include "texgraph/Image.h"
 
 #include <unirender/Blackboard.h>
 
 #include <noise/module/perlin.h>
 
-namespace sd
+namespace texgraph
 {
 namespace node
 {

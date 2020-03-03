@@ -6,7 +6,7 @@
 #endif
 
 #ifndef PARM_FILEPATH_H
-#define PARM_FILEPATH_H sd/node/##PARM_NODE_TYPE##.h
+#define PARM_FILEPATH_H texgraph/node/##PARM_NODE_TYPE##.h
 #endif
 
 #include XSTR(PARM_FILEPATH_H)

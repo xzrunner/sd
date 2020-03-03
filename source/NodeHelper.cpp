@@ -1,7 +1,7 @@
-#include "sd/NodeHelper.h"
-#include "sd/Node.h"
+#include "texgraph/NodeHelper.h"
+#include "texgraph/Node.h"
 
-namespace sd
+namespace texgraph
 {
 
 NodePtr NodeHelper::GetInputNode(const Node& node, size_t idx)

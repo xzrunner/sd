@@ -125,7 +125,7 @@
     <ProjectReference Include="..\..\..\..\volume\platform\msvc\projects\volume.vcxproj">
       <Project>{e9e3c6d8-5b33-4afc-b1a1-0c1541bf8ddf}</Project>
     </ProjectReference>
-    <ProjectReference Include="sd.vcxproj">
+    <ProjectReference Include="texgraph.vcxproj">
       <Project>{ee9ef814-c26a-45d3-a14e-323235c09d34}</Project>
     </ProjectReference>
   </ItemGroup>

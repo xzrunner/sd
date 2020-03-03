@@ -11,30 +11,30 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\include\sd\NodeHelper.h" />
-    <ClInclude Include="..\..\..\include\sd\Node.h" />
-    <ClInclude Include="..\..\..\include\sd\Image.h" />
-    <ClInclude Include="..\..\..\include\sd\NodeVarType.h" />
-    <ClInclude Include="..\..\..\include\sd\node\PerlinNoise.h" />
-    <ClInclude Include="..\..\..\include\sd\node\PerlinNoise.parm.h" />
-    <ClInclude Include="..\..\..\include\sd\node_include_gen.h" />
-    <ClInclude Include="..\..\..\include\sd\node_regist_cfg.h" />
-    <ClInclude Include="..\..\..\include\sd\node_rttr_gen.h" />
-    <ClInclude Include="..\..\..\include\sd\SD.h" />
-    <ClInclude Include="..\..\..\include\sd\typedef.h" />
+    <ClInclude Include="..\..\..\include\texgraph\NodeHelper.h" />
+    <ClInclude Include="..\..\..\include\texgraph\Node.h" />
+    <ClInclude Include="..\..\..\include\texgraph\Image.h" />
+    <ClInclude Include="..\..\..\include\texgraph\NodeVarType.h" />
+    <ClInclude Include="..\..\..\include\texgraph\node\PerlinNoise.h" />
+    <ClInclude Include="..\..\..\include\texgraph\node\PerlinNoise.parm.h" />
+    <ClInclude Include="..\..\..\include\texgraph\node_include_gen.h" />
+    <ClInclude Include="..\..\..\include\texgraph\node_regist_cfg.h" />
+    <ClInclude Include="..\..\..\include\texgraph\node_rttr_gen.h" />
+    <ClInclude Include="..\..\..\include\texgraph\TexGraph.h" />
+    <ClInclude Include="..\..\..\include\texgraph\typedef.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\source\NodeHelper.cpp" />
     <ClCompile Include="..\..\..\source\Node.cpp" />
     <ClCompile Include="..\..\..\source\Image.cpp" />
     <ClCompile Include="..\..\..\source\node\PerlinNoise.cpp" />
-    <ClCompile Include="..\..\..\source\SD.cpp" />
+    <ClCompile Include="..\..\..\source\TexGraph.cpp" />
     <ClCompile Include="..\..\..\source\RegistRTTR.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectName>5.sd</ProjectName>
+    <ProjectName>5.texgraph</ProjectName>
     <ProjectGuid>{3E25FBE5-28C4-432E-8928-6B99A9E9119B}</ProjectGuid>
-    <RootNamespace>sd</RootNamespace>
+    <RootNamespace>texgraph</RootNamespace>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -64,12 +64,12 @@
     <_ProjectFileVersion>15.0.26730.12</_ProjectFileVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>..\sd\x86\Debug\</OutDir>
-    <IntDir>..\sd\x86\Debug\obj\</IntDir>
+    <OutDir>..\texgraph\x86\Debug\</OutDir>
+    <IntDir>..\texgraph\x86\Debug\obj\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>..\sd\x86\Release\</OutDir>
-    <IntDir>..\sd\x86\Release\obj\</IntDir>
+    <OutDir>..\texgraph\x86\Release\</OutDir>
+    <IntDir>..\texgraph\x86\Release\obj\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

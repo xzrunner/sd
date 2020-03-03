@@ -1,10 +1,10 @@
 #pragma once
 
-#include "sd/Node.h"
+#include "texgraph/Node.h"
 
 #include <SM_Vector.h>
 
-namespace sd
+namespace texgraph
 {
 namespace node
 {
@@ -24,7 +24,7 @@ public:
 
     RTTR_ENABLE(Node)
 
-#define PARM_FILEPATH "sd/node/PerlinNoise.parm.h"
+#define PARM_FILEPATH "texgraph/node/PerlinNoise.parm.h"
 #include <dag/node_parms_gen.h>
 #undef PARM_FILEPATH
 

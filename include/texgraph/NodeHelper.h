@@ -1,8 +1,8 @@
 #pragma once
 
-#include "sd/typedef.h"
+#include "texgraph/typedef.h"
 
-namespace sd
+namespace texgraph
 {
 
 class Image;

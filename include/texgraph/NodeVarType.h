@@ -1,7 +1,7 @@
 #pragma once
 #pragma once
 
-namespace sd
+namespace texgraph
 {
 
 enum class NodeVarType

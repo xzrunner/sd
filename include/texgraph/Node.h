@@ -1,11 +1,11 @@
 #pragma once
 
-#include "sd/typedef.h"
-#include "sd/NodeVarType.h"
+#include "texgraph/typedef.h"
+#include "texgraph/NodeVarType.h"
 
 #include <dag/Node.h>
 
-namespace sd
+namespace texgraph
 {
 
 class Image;
