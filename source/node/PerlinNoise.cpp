@@ -10,7 +10,7 @@ namespace texgraph
 namespace node
 {
 
-void PerlinNoise::Execute()
+void PerlinNoise::Execute(const std::shared_ptr<dag::Context>& ctx)
 {
     m_img = std::make_shared<Image>();
 

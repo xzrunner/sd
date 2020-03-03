@@ -15,8 +15,6 @@ class Node : public dag::Node<NodeVarType>
 public:
     Node() { }
 
-    virtual void Execute() = 0;
-
     auto GetImage() const { return m_img; }
 
 protected:
