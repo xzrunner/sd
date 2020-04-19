@@ -1,7 +1,9 @@
 #include "texgraph/node/PerlinNoise.h"
 #include "texgraph/Image.h"
+#include "texgraph/Context.h"
 
-#include <unirender/Blackboard.h>
+#include <unirender2/TextureDescription.h>
+#include <unirender2/Device.h>
 
 #include <noise/module/perlin.h>
 
@@ -35,9 +37,14 @@ void PerlinNoise::Execute(const std::shared_ptr<dag::Context>& ctx)
         }
     }
 
-    auto& rc = ur::Blackboard::Instance()->GetRenderContext();
-    ur::TexturePtr tex = std::make_shared<ur::Texture>();
-    tex->Upload(&rc, w, h, ur::TEXTURE_R16, pixels.data());
+    ur2::TextureDescription desc;
+    desc.target = ur2::TextureTarget::Texture2D;
+    desc.width  = w;
+    desc.height = h;
+    desc.format = ur2::TextureFormat::R16;
+
+    auto& dev = *std::static_pointer_cast<Context>(ctx)->ur_dev;
+    auto tex = dev.CreateTexture(desc, pixels.data());
     m_img->SetTexture(tex);
 }
 

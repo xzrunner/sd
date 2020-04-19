@@ -56,6 +56,9 @@
       <Filter>dataset\node</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\include\texgraph\TexGraph.h" />
+    <ClInclude Include="..\..\..\include\texgraph\Context.h">
+      <Filter>dataset</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\source\RegistRTTR.cpp">
