@@ -27,8 +27,8 @@ void PerlinNoise::Execute(const std::shared_ptr<dag::Context>& ctx)
     const auto w = m_img->GetWidth();
     const auto h = m_img->GetHeight();
     std::vector<short> pixels(w * h, 0);
-    for (int y = 0; y < h; ++y) {
-        for (int x = 0; x < w; ++x) {
+    for (size_t y = 0; y < h; ++y) {
+        for (size_t x = 0; x < w; ++x) {
             const float fx = static_cast<float>(x) / w;
             const float fy = static_cast<float>(y) / h;
             float v = static_cast<float>(noise.GetValue(fx, 0, fy));
